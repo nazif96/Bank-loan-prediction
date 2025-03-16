@@ -64,7 +64,10 @@ def save_cleaned_data(dataframe, path):
 
 
 
+ 
+
 def preprocess_data(dataframe): 
+    
     """
     Cette fonction encode les variables catégoriques du DataFrame en valeurs numériques.
     
@@ -74,19 +77,9 @@ def preprocess_data(dataframe):
     Returns:
         pd.DataFrame: Le DataFrame avec les colonnes catégoriques encodées.
     """
-    df_copy = dataframe.copy()  # Éviter de modifier l'original
 
-    # Sélectionner les colonnes de type "object" (catégoriques)
-    cat_cols = df_copy.select_dtypes(include=['object']).columns
-
-    # Vérifier s'il y a des colonnes catégoriques à encoder
-    if len(cat_cols) == 0:
-        print("Aucune variable catégorique à encoder.")
-        return df_copy
-
-    # Appliquer l'encodage LabelEncoder sur chaque colonne catégorique
-    for col in cat_cols:
+    for col in dataframe.select_dtypes(include=['object']).columns:
         le = LabelEncoder()
-        df_copy[col] = le.fit_transform(df_copy[col].astype(str))
+        dataframe[col] = le.fit_transform(dataframe[col].astype(str))
 
-    return df_copy
+    return dataframe
