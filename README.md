@@ -45,8 +45,9 @@ Bank-loan-prediction
 ├── poetry.lock 
 ├── LICENSE
 ├── Présentation.ipynb
-├── pyproject.toml 
-└── README.md
+├── pyproject.toml
+├── README.md
+└── requirements.txt 
 ```  
 
 
@@ -82,3 +83,51 @@ Les données ont éte chargées à partir du fichier  `dataset/train_data.csv ` 
 | DecisionTreeClassifier |       0.846 |
 
 ## Installation 
+
+### Prérequis 
+- **PyCharm Community** installé.
+- **Pip** pour la gestion des packages 
+
+**Etapes** 
+1. clonez  le reposotoire 
+
+```bash 
+git clone https://github.com/nazif96/Bank-loan-prediction.git
+
+```
+2. **Specifier environnement virtuel** 
+
+3. **Deplacer dans le dossier**
+
+```bash
+cd Credit_app 
+cd App_deploiment 
+
+```
+4. **Installer les dépendances**
+
+```bash
+pip install -r requirements.txt 
+
+```
+
+### 🚀Utilisation 
+
+1. **Lancer l'interface de simulation de l'éligibilité du client**
+
+```bash
+python app.py
+
+```
+
+![Credit_app](C:\Users\NAZIFOU\Bank-loan-prediction\Credit_app\credit_APP.png)
+
+2. **renseigner les données puis lancer la prediction** 
+
+## Auteurs 
+**AFOLABI Nazifou**
+
+- **Datascientist | Machine Learning & mo
+- Passionné par les sciences de données et l'intelligence artificielle.
+
+
