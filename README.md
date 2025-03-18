@@ -68,8 +68,8 @@ Les données ont éte chargées à partir du fichier  `dataset/train_data.csv ` 
 ### 4- Prétraitement des données 
 - **Encodage des variables catégorielles** : Utilisation de techniques d'encodage adaptés (Label Encoding)
 
-### 5- Création et entrainements du modèle 
- - **Modèles entrainé** :
+### 5- Création et entraînement des modèles 
+ - **Modèles entraînés** :
   - Logistic Regression
   - KNeighborsClassifier
   - DecisionTreeClassifier
