@@ -120,14 +120,14 @@ python app.py
 
 ```
 
-![Credit_app](C:\Users\NAZIFOU\Bank-loan-prediction\Credit_app\credit_APP.png)
+![Credit_app](https://github.com/nazif96/Bank-loan-prediction/blob/main/Credit_app/credit_APP.png)
 
 2. **renseigner les données puis lancer la prediction** 
 
 ## Auteurs 
 **AFOLABI Nazifou**
 
-- **Datascientist | Machine Learning & mo
+- **Datascientist | Machine Learning & Modeling** 
 - Passionné par les sciences de données et l'intelligence artificielle.
 
 
