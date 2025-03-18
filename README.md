@@ -23,7 +23,7 @@ Bank-loan-prediction
 │      ├── app.py
 │      ├── model.pkl
 │      ├── model.pkl1
-│      ├── requirements.txt
+│      ├── requirements.txtus
 |
 ├── dataset/
 │   ├── train.csv
