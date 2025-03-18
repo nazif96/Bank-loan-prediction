@@ -97,14 +97,14 @@ git clone https://github.com/nazif96/Bank-loan-prediction.git
 ```
 2. **Specifiez environnement virtuel** 
 
-3. **Deplacer dans le dossier**
+3. **Deplacez dans le dossier**
 
 ```bash
 cd Credit_app 
 cd App_deploiment 
 
 ```
-4. **Installer les dépendances**
+4. **Installez les dépendances**
 
 ```bash
 pip install -r requirements.txt 
@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 ### 🚀Utilisation 
 
-1. **Lancer l'interface flask de simulation de l'éligibilité du client**
+1. **Lancez l'interface flask de simulation de l'éligibilité du client**
 
 ```bash
 python app.py
@@ -122,9 +122,9 @@ python app.py
 
 ![Credit_app](https://github.com/nazif96/Bank-loan-prediction/blob/main/Credit_app/credit_APP.png)
 
-2. **renseigner les données puis lancer la prediction** 
+2. **renseignez les données puis lancez la prediction** 
 
-## 👤Auteurs 
+## 👤Auteur
 **AFOLABI Nazifou**
 
 - **Datascientist | Machine Learning & Modeling** 
