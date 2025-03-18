@@ -72,7 +72,7 @@ Les données ont éte chargées à partir du fichier  `dataset/train_data.csv ` 
  - **Modèles entrainé** :
   - Logistic Regression
   - KNeighborsClassifier
-  - ecisionTreeClassifier
+  - DecisionTreeClassifier
 
 ### 6- Evaluation du modèle (accuracy)
 
@@ -85,17 +85,17 @@ Les données ont éte chargées à partir du fichier  `dataset/train_data.csv ` 
 ## Installation 
 
 ### Prérequis 
-- **PyCharm Community** installé.
+- **PyCharm Community** installé.  # utiliser pour developper l'interface flask 
 - **Pip** pour la gestion des packages 
 
 **Etapes** 
-1. clonez  le reposotoire 
+1. **Clonez  le Dépôt** 
 
 ```bash 
 git clone https://github.com/nazif96/Bank-loan-prediction.git
 
 ```
-2. **Specifier environnement virtuel** 
+2. **Specifiez environnement virtuel** 
 
 3. **Deplacer dans le dossier**
 
@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 ### 🚀Utilisation 
 
-1. **Lancer l'interface de simulation de l'éligibilité du client**
+1. **Lancer l'interface flask de simulation de l'éligibilité du client**
 
 ```bash
 python app.py
