@@ -1,0 +1,26 @@
+[project]
+name = "bank-loan-prediction"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nazif96",email = "afolabinazif96@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.1"
+numpy = "^2.2.4"
+flask = "^3.1.0"
+scikit-learn = "^1.6.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
