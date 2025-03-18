@@ -40,3 +40,12 @@ Bank-loan-prediction
 ├── LICENSE
 ├── Présentation.ipynb
 └── README.md
+
+
+## 
+
+| modèles                |   précision |
+|:-----------------------|------------:|
+| Logistic Regression    |       0.854 |
+| KNeighborsClassifier   |       0.699 |
+| DecisionTreeClassifier |       0.846 |
