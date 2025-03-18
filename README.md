@@ -9,6 +9,7 @@ Bienvenue dans l'analyse **Analyse et la modélisation** d'éligibilté ou non d
 L'objectif de ce projet était de développer un modèle prédictif capable de classer les statuts de prêt et un interface web **Flask** qui permet de dire si le client est "éligible" ou "Non"  en fonction de quelques caractériqtiques du client.
 
 ## Structure du projet
+```
 Bank-loan-prediction
 ├── cleaning_preprocess_ML/
 │   ├── __init__.py
@@ -40,6 +41,7 @@ Bank-loan-prediction
 ├── LICENSE
 ├── Présentation.ipynb
 └── README.md
+```  
 
 
 ## 
