@@ -24,7 +24,7 @@ Bank-loan-prediction
 │      ├── app.py
 │      ├── model.pkl
 │      ├── model.pkl1
-│      ├── requirements.txtus
+│      ├── requirements.txt
 |
 ├── dataset/
 │   ├── train.csv
@@ -44,7 +44,7 @@ Bank-loan-prediction
 ```  
 
 
-## 
+## modelisation 
 
 | modèles                |   précision |
 |:-----------------------|------------:|
